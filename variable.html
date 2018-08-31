@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Variable</title>
+    </head>
+
+    <body>
+        <h1 id="element"></h1>
+
+        <script>
+            function say(message){
+                var element = document.querySelector("#element");
+                element.innerHTML = message;
+            }
+            say("Hello world");
+            //debugger
+            console.log("Hello world")
+
+            //variable
+            var abc = 10;
+            var name = "lnwsus";
+            var flag = true;
+            lastname = "lucifer";
+            var test;
+            var empty = null;
+
+            console.log(abc, name, flag, lastname, test, empty);
+            var second = "10";
+            console.log(abc+second);
+            console.log(abc-second);
+
+            console.log(abc == second);
+            console.log(abc === second);
+
+            //----array----
+            var array = [];
+            array[0] = 1;
+            array[1] = 2;
+            console.log(array);
+
+            array[4] = 3;
+            console.log(array);
+
+
+            //----- operator conditional -----
+            var value = true ? "foo" : "bar";
+            console.log(value);
+            value = 1 > 2 ?  "foo" : "bar";
+             console.log(value);
+
+        </script>
+    </body>
+</html>

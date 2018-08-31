@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hoist</title>
+    </head>
+
+    <body>
+        <script>
+            //---scope variable---
+            var a = "hi";
+            function myFunctionSay(){
+                var a = "bye";
+                console.log(a);
+            } 
+            console.log(a);
+
+            //---Hoist variable---
+            function myFunction(num){
+                console.log(value);
+
+                if(num>10){
+                    let value = num * 10;
+                }else{
+                    console.log(value);
+                }
+            }
+            myFunction(11);
+        </script>
+    </body>
+</html>
