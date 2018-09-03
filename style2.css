@@ -1,0 +1,55 @@
+/* So padding and border no longer increase width. */
+* {
+  box-sizing: border-box;
+}
+
+/* Some default document settings. */
+body {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 30px;
+	text-align: center;
+	/* Set width to 1200 instead of 960 for better layout (in my humble opinion). */
+	width: 1600px;
+	background-image: url("Free-Desktop-1600x900-Wallpapers.jpg");
+}
+
+header	{
+
+	color: red;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	font-size: 7.5em;
+	font-weight: bold;
+	vertical-align: middle;
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+button	{
+	border-bottom-color: coral;
+	 background-color: #ffd100;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	font-size: 3.0em;
+	margin-top: 50px
+
+	
+}
+
+input	{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	font-size: 2.5em;
+
+}
+#output{
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	font-size: 7.5em;
+	font-weight: bold;
+	vertical-align: middle;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
